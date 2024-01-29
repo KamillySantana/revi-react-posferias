@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    width: 60px;
+}
+
+.divo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.nav{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.nav:hover{
+    padding: 4px;
+    background-color: #ffa500;
+    transition: all 0.1s;
+    border-radius: 10px;
+}
+
+.arca{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tot{
+    background-color: #ffd9a0;
+}
+
+.btnn{
+    background-color: #ffa500;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+.five{
+    padding: 10px;
+    border-radius: 60px;
+    border: 1px;
+    margin: 10px;
+}
+
+.five:hover{
+    background-color: #ffbb64;
+    transition: all 0.5s;
+}
+
+
+.papel{
+    background-color: #ffd9a0;
+}
+
+.botaozinho{
+    background-color: black;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.input{
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.linhas{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px;
+}
+
+.button:hover{
+    background-color: #ffbb64;
+    transition: all 0.5s;
+}
+
+.receita{
+    margin: 20px;
+}
+
+.receita p{
+    margin: 5px;
+}
+
+.clas{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+
+/*mobile*/
+
+@media(max-width: 426px){
+    .divo{
+        display: block;
+        padding: 10px;
+    }
+}
+
+@media(max-width: 321px){
+    .input{
+        margin: 0;
+    }
+}
